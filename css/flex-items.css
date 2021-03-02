@@ -1,0 +1,18 @@
+.star.--star1 {
+	align-self: center;
+}
+
+.star.--star2 {
+	align-self: flex-end;
+}
+
+
+.comments-avaliation.--comment0 {
+	align-self: flex-start;
+}
+.comments-avaliation.--comment1 {
+	align-self: center;
+}
+.comments-avaliation.--comment2 {
+	align-self: flex-end;
+}

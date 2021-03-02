@@ -1,0 +1,27 @@
+:root {
+	--cor-dark-grayish-magenta: hsl(303, 10%, 53%);
+	--cor-very-dark-magenta: hsl(300, 43%, 22%);
+	--cor-soft-pink: hsl(333, 80%, 67%);
+	--cor-light-grayish-magenta: hsl(300, 24%, 96%);
+	--cor-white: hsl(0, 0%, 100%);
+	font-size: 15px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.conteiner {
+	background-color: var(--cor-white);
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.body {
+	display: block;
+	width: 80%;
+	margin: auto;
+}

@@ -1,0 +1,41 @@
+@media (max-width: 995px) {
+.top__conteiner {
+	flex-flow: wrap;
+}
+.comments {
+	flex-flow: wrap;
+}
+.comments-avaliation {
+	margin-bottom: 2rem;
+}
+}
+
+@media (min-width: 1000px) {
+.top__conteiner {
+	flex-flow: nowrap;
+}
+.comments {
+	flex-flow: nowrap;
+}
+.comments-avaliation {
+	margin-right: 1rem;
+	margin-bottom: 0;
+}
+.comments-avaliation:last-child {
+	margin-right: 0;
+}
+}
+
+
+@media (min-width: 1400px) {
+.top__conteiner {
+	flex-flow: nowrap;
+}
+.comments {
+	flex-flow: nowrap;
+}
+.comments-avaliation {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+}
